@@ -24,7 +24,6 @@
 
 //-----------------------------------------------------------------------------
 GateLETActor::GateLETActor(G4String name, G4int depth):
-
   GateVImageActor(name,depth) {
   GateDebugMessageInc("Actor",4,"GateLETActor() -- begin\n");
   emcalc = new G4EmCalculator;
